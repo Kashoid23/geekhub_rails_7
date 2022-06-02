@@ -3,7 +3,7 @@
 ```
 rvm use 3.0.3
 gem install rails -v 7.0.1
-rails _7.0.1_ new rails_7 -T --database=postgresql --javascript=esbuild --css=bootstrap
+rails _7.0.1_ new rails_7 -T --database=postgresql --javascript=esbuild --css=bootstrap -a propshaft
 Add scripts to your package.json
 "scripts": {
   "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
@@ -12,4 +12,10 @@ Add scripts to your package.json
 rails db:create
 rails db:migrate
 foreman start -f Procfile.dev
+```
+
+```
+https://turbo.hotwired.dev
+https://hotwired.dev/
+https://stimulus.hotwired.dev/
 ```

@@ -14,8 +14,6 @@ rails db:migrate
 foreman start -f Procfile.dev
 ```
 
-```
-https://turbo.hotwired.dev
-https://hotwired.dev/
-https://stimulus.hotwired.dev/
-```
+- [https://turbo.hotwired.dev](https://turbo.hotwired.dev)
+- [https://hotwired.dev](https://hotwired.dev)
+- [https://stimulus.hotwired.dev](https://stimulus.hotwired.dev)

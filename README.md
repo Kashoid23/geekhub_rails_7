@@ -13,3 +13,8 @@ rails db:create
 rails db:migrate
 foreman start -f Procfile.dev
 ```
+
+```
+Migrate from Sprockets to Propshaft
+https://github.com/rails/propshaft/blob/main/UPGRADING.md#3-migrate-from-sprockets-to-propshaft
+```

@@ -3,7 +3,7 @@
 ```
 rvm use 3.0.3
 gem install rails -v 7.0.1
-rails _7.0.1_ new rails_7 -T --database=postgresql --javascript=esbuild --css=bootstrap
+rails _7.0.1_ new rails_7 -T --database=postgresql --javascript=esbuild --css=bootstrap -a propshaft
 Add scripts to your package.json
 "scripts": {
   "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
@@ -15,6 +15,7 @@ foreman start -f Procfile.dev
 ```
 
 ```
-Migrate from Sprockets to Propshaft
-https://github.com/rails/propshaft/blob/main/UPGRADING.md#3-migrate-from-sprockets-to-propshaft
+https://turbo.hotwired.dev
+https://hotwired.dev/
+https://stimulus.hotwired.dev/
 ```

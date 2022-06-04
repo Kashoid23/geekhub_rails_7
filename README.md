@@ -17,3 +17,7 @@ foreman start -f Procfile.dev
 - [https://turbo.hotwired.dev](https://turbo.hotwired.dev)
 - [https://hotwired.dev](https://hotwired.dev)
 - [https://stimulus.hotwired.dev](https://stimulus.hotwired.dev)
+
+```
+rails g scaffold message body:text
+```

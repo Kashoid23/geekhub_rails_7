@@ -11,7 +11,7 @@ Add scripts to your package.json
 }
 rails db:create
 rails db:migrate
-foreman start -f Procfile.dev
+bin/dev OR foreman start -f Procfile.dev
 ```
 
 - [https://turbo.hotwired.dev](https://turbo.hotwired.dev)

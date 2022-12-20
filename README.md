@@ -27,3 +27,5 @@ rails _7.0.1_ new rails_7 -T --database=postgresql --javascript=webpack --css=ta
 ```
 
 https://guides.rubyonrails.org/working_with_javascript_in_rails.html
+
+https://blog.appsignal.com/2022/03/02/import-maps-under-the-hood-in-rails-7.html

@@ -21,3 +21,9 @@ bin/dev
 ```
 rails g scaffold message body:text
 ```
+
+```
+rails _7.0.1_ new rails_7 -T --database=postgresql --javascript=webpack --css=tailwind
+```
+
+https://guides.rubyonrails.org/working_with_javascript_in_rails.html
